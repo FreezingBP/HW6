@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <CheckBox
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/select"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        tools:text="This is the content"/>
+
+    <TextView
+        android:id="@+id/tv_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="0dp"
+        android:layout_alignLeft="@id/tv_content"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:text="This is the timestamp" />
+<!--    <Button-->
+<!--        android:id="@+id/btn_agree"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toRightOf="@id/tv_content"-->
+<!--        android:text="同意" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_refuse"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toRightOf="@id/btn_agree"-->
+<!--        android:text="拒绝"-->
+<!--        android:textSize="10dp" />-->
+
+
+</RelativeLayout>
